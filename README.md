@@ -1,34 +1,34 @@
-# <a href="https://modernize-nextjs-free.vercel.app/?ref=5">Modernize-nextjs-free</a>
-Modernize Free Next.js 14 Admin Template with Material Ui + Typescript 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/adminmart/Modernize-Nextjs-Free" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star adminmart/Modernize-Nextjs-Free on GitHub">Give a Star</a>
-<!-- Main image of Template -->
+# Project Nexus
 
-  <img src="https://adminmart.com/wp-content/uploads/2023/03/modernize-free-next-js-admin-template.png" />
+Project Nexus is a modernized project management dashboard designed to help teams organize, track, and collaborate on projects efficiently. With an intuitive interface, real-time updates, and powerful integrations, it streamlines workflows for developers, managers, and teams of all sizes.
 
+## Features
 
+- 🚀 **Task Management** – Create, assign, and track tasks effortlessly.
+- 📊 **Dashboard Overview** – Get insights into project progress with visual reports.
+- 🔄 **Real-time Collaboration** – Stay in sync with team updates and notifications.
+- 🛠 **Custom Workflows** – Adapt workflows to fit your team’s needs.
+- 🔗 **Integrations** – Connect with GitHub, Jira, Slack, and more.
+- 🔒 **Role-based Access** – Manage user permissions securely.
 
-# Installation 👨🏻‍💻
+## Tech Stack
 
-> We recommend you use npm
+### Backend (Golang)
+- **Framework:** Fiber / Gin
+- **Database:** PostgreSQL / MongoDB
+- **Authentication:** JWT / OAuth
+- **Real-time:** WebSockets / gRPC
 
-1. Install all packages
+### Frontend (TBD)
+- **Framework:** React / Next.js
+- **State Management:** Redux / Zustand
+- **UI Library:** Ant Design / Tailwind CSS
 
-```
-npm i
-```
+## Installation
 
-2. Run Development Server
-
-```
-npm run dev
-```
-
-3. Build your project
-
-```
-npm run build
-```
-
-
-
+### Backend Setup
+```sh
+git clone https://github.com/yourusername/project-nexus.git
+cd project-nexus/backend
+go mod tidy
+go run main.go
